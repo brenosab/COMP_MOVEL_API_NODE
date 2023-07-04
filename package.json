@@ -1,0 +1,33 @@
+{
+  "name": "COMP_MOVEL_API_NODE",
+  "version": "1.0.0",
+  "description": "Api Node.js para aplicação de gestão de despesas",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node node_modules/nodemon/bin/nodemon bin/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brenosab/COMP_MOVEL_API_NODE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brenosab/COMP_MOVEL_API_NODE/issues"
+  },
+  "homepage": "https://github.com/brenosab/COMP_MOVEL_API_NODE#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.3.1",
+    "multer": "^1.4.5-lts.1",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
