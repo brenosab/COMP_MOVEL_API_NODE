@@ -7,5 +7,6 @@ router.get('/:linhasPorPagina/:pagina', metaController.list);
 router.get('/:id', metaController.get);
 router.put('/:id', metaController.update);
 router.delete('/:id', metaController.delete);
+router.post('/', metaController.create);
 
 module.exports = router;

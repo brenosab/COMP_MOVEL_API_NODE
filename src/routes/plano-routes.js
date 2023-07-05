@@ -7,5 +7,6 @@ router.get('/:linhasPorPagina/:pagina', planoController.list);
 router.get('/:id', planoController.get);
 router.put('/:id', planoController.update);
 router.delete('/:id', planoController.delete);
+router.post('/', planoController.create);
 
 module.exports = router;
